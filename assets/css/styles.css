@@ -201,7 +201,7 @@ img {
   gap: 2rem;
 }
 
-nav__link {
+.nav__link {
   display: flex;
   flex-direction: column;
   align-items: center;
