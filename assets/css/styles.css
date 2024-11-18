@@ -660,7 +660,7 @@ img {
 /* Active Modal */
 .active-modal {
   opacity: 1;
-  visiblity: visible;
+  visibility: visible;
 }
 
 /*==================== PORTFOLIO ====================*/
