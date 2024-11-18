@@ -514,7 +514,7 @@ img {
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom : var(--mb-1);
 }
 
 .qualification__calendar {
@@ -532,7 +532,6 @@ img {
 
 .qualification__line {
   display: block;
-  position: relative;
   width: 1px;
   height: 100%;
   background-color: var(--first-color);
