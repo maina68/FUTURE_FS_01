@@ -1,22 +1,22 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
-    navClose = document.getElementById('nav-close')
+    navClose = document.getElementById('nav-close');
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 if(navToggle){
     navToggle.addEventListener('click', () =>{
         navMenu.classList.add('show-menu')
-    })
+    });
 }
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if(navClose){
-    navClose.addEventListener('click', () =>{
-        navMenu.classList.remove('show-menu')
-    })
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu');
+    });
 }
 
 /*==================== REMOVE MENU MOBILE ====================*/
@@ -30,7 +30,7 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 /*==================== ACCORDION SKILLS ====================*/
 const skillsContent = document.getElementsByClassName('skills__content'),
-    skillsHeader = document.querySelectorAll('.skills__header')
+    skillsHeader = document.querySelectorAll('.skills__header');
 
 function toggleSkills(){
     let itemClass = this.parentNode.className
@@ -44,12 +44,12 @@ function toggleSkills(){
 
 }
 
-skillsHeader.forEach((el) =>{
-    el.addEventListener('click', toggleSkills)
+skillsHeader.forEach((el) => {
+el.addEventListener('click', toggleSkills);
 })
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
-    tabContents = document.querySelectorAll('[data-content]')
+    tabContents = document.querySelectorAll('[data-content]');
 
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
@@ -69,15 +69,15 @@ tabs.forEach(tab =>{
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll('.services__modal'),
     modalBtns =  document.querySelectorAll('.services__button'),
-    modalCloses =  document.querySelectorAll('.services__modal-close'),
+    modalCloses =  document.querySelectorAll('.services__modal-close');
 
 let modal = function(modalClick){
     modalViews[modalClick].classList.add('active-modal')
 }
 
 modalBtns.forEach((modalBtn, i) => {
-    modalBtn.addEventListener('click', () =>{
-        modal(i);
+    modalBtn.addEventListener('click', () => {
+        modal(i)
     })
 })
 
