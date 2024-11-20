@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -396,8 +396,8 @@
                         </div>
                     </div>
 
-                     <!--==================== QUALIFICATION 3====================-->
-                     <div class="qualification__data">
+                    <!--==================== QUALIFICATION 3====================-->
+                    <div class="qualification__data">
                         <div>
                             <h3 class="qualification__title">Software Development</h3>
                             <span class="qualification__subtitle">Power Learn Project</span>
@@ -428,10 +428,10 @@
                         </div>
                     </div>
 
-                   
+
                 </div>
-                 <!--==================== QUALIFICATION CONTENT 2====================-->
-                 <div class="qualification__content" data-content id="work">
+                <!--==================== QUALIFICATION CONTENT 2====================-->
+                <div class="qualification__content" data-content id="work">
                     <!--==================== QUALIFICATION 1====================-->
                     <div class="qualification__data">
                         <div>
@@ -476,7 +476,7 @@
                 <!--==================== SERVICES 1 ====================-->
                 <div class="services__content">
                     <div>
-                        <i class="uil uil-web-grid services__icon" ></i>
+                        <i class="uil uil-web-grid services__icon"></i>
                         <h3 class="services__title">Ui/Ux <br> Designer</h3>
                     </div>
                     <span class="button button--flex button--small button--link services__button">
@@ -486,7 +486,7 @@
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
-                            <i class ="uil uil-times services__modal-close"></i>
+                            <i class="uil uil-times services__modal-close"></i>
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
@@ -522,7 +522,7 @@
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">Frontend <br> Developer</h4>
-                            <i class ="uil uil-times services__modal-close"></i>
+                            <i class="uil uil-times services__modal-close"></i>
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
@@ -558,7 +558,7 @@
                     <div class="services__modal">
                         <div class="services__modal-content">
                             <h4 class="services__modal-title">IT Support Technician</h4>
-                            <i class ="uil uil-times services__modal-close"></i>
+                            <i class="uil uil-times services__modal-close"></i>
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
@@ -586,7 +586,67 @@
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
 
+            <div class="portfolio__container container swiper-container">
+
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Portfolio Website</h3>
+                            <p class="portfolio__description">A simple portfolio website built using HTML, CSS and
+                                JavaScript</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Brand Design</h3>
+                            <p class="portfolio__description">A simple portfolio website built using HTML, CSS and
+                                JavaScript</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 3====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online Store</h3>
+                            <p class="portfolio__description">A simple portfolio website built using HTML, CSS and
+                                JavaScript</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio__icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio__icon"></i>
+
+                </div>
+
+                <!--Add Pagination-->
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
@@ -614,7 +674,7 @@
 
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
